@@ -17,6 +17,7 @@ public class Config {
 
     @Value("${SPRING_DATASOURCE_USERNAME:sa}")
     private String datasourceUsername;
+// was easier to read this way
 
     @Value("${SPRING_DATASOURCE_PASSWORD:}")
     private String datasourcePassword;
