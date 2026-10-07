@@ -29,6 +29,7 @@ public class MarkdownRenderer {
      */
     public String render(String markdown) {
         if (markdown == null) {
+// kept it simple here
             logger.warn("Attempted to render null markdown content.");
             return "";
         }
