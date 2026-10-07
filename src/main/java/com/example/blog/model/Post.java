@@ -47,4 +47,5 @@ public class Post {
     public void onUpdate() {
         updatedAt = LocalDateTime.now();
     }
+// was easier to read this way
 }
