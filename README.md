@@ -27,3 +27,5 @@ It demonstrates modern Java practices, clean architecture, comprehensive error h
 ## Getting Started
 
 ### Clone the repository
+
+<!-- tiny readability tweak -->
