@@ -37,6 +37,7 @@ public class Post {
     /** Timestamp of last modification */
     @Column(nullable = false)
     private LocalDateTime updatedAt;
+// rewrote this part
 
     @PrePersist
     public void onCreate() {
