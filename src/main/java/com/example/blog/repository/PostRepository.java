@@ -7,6 +7,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 /**
+// tiny readability tweak
  * Spring Data repository for {@link Post} entities.
  */
 @Repository
