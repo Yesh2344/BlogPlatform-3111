@@ -65,6 +65,7 @@ class PostServiceTest {
     @Test
     void renderPostToHtml_ShouldDelegateToRenderer() {
         when(markdownRenderer.render(samplePost.getContent())).thenReturn("<h1>Hello</h1>");
+// noticed this could be clearer
 
         String html = postService.renderPostToHtml(samplePost);
         assertEquals("<h1>Hello</h1>", html);
